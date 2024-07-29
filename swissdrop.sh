@@ -34,7 +34,7 @@ echo "Creating .env file..."
 read -p "Enter your private key: " PRIVATE_KEY
 echo "PRIVATE_KEY=$PRIVATE_KEY" > .env
 echo ".env file created."
-
+git clone https://github.com/rushab001/swissdrop.git
 # Configure Hardhat
 echo "Configuring Hardhat..."
 cat <<EOL > hardhat.config.js
